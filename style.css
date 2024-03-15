@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: serif;
+}
+
+.main-logo {
+    width: 190px;
+    height: 100%;
+}
+.header-top {
+    background:#023B6D;
+}
+
+.logo-and-main-menu-and-button {
+    width: 1020px;
+    background: #37517E;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.logo-and-main-menu-and-button-background {
+    background: #37517E;
+}
+.logo h1 a {
+    text-decoration: none;
+    color: white;
+}
+.main-menu ul {
+    list-style: none;
+}
+.main-menu ul li {
+    float: left;
+    padding: 10px;
+}
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-background {
+    background: #37517E;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.footer-part {
+    width: 1020px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.main-body-section {
+    width: 1020px;
+    height: 390px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-body-section-1 {
+    width: 48%;
+    height: 100%;
+    /* background: yellow; */
+    padding: 15px;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body-section-1 h1 {
+    color: white;
+    font-size: 48px;
+    line-height: 50px;
+    font-family: serif;
+}
+.main-body-section-1 p {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #AFB9CB;
+}
+
+.two-buttons button {
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    background: deepskyblue;
+    color: white;
+    border: none;
+}
+.main-body-part-1 {
+    background: #37517E;
+    padding: 35px;
+}
+
+.main-body-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}
