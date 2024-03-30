@@ -361,3 +361,109 @@ body {
     width: fit-content;
     margin: auto;
 }
+
+.main-body-part-6 {
+    width: 100%;
+    height: auto;
+    background: #293E60;
+    overflow: hidden;
+}
+.call-to-action-title {
+    width: 1020px;
+    height: 200px;
+    /* background: red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.call-to-action-title {
+    padding: 50px 5px 50px 5px;
+    justify-content: space-between;
+}
+.call-to-action-button {
+    
+    /* background: green; */
+    margin-left: 2%;
+}
+.call-to-action-info {
+    width: 76%;
+    height: 200px;
+    /* background: yellow; */
+    overflow: hidden;
+    
+}
+
+.call-to-action-button button {
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-family: sans-serif;
+    background: none;
+    color: white;
+}
+.call-to-action-info h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.call-to-action-info {
+    color: white;
+}
+.portfolio-box {
+    width: 1020px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.portfolio-item h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+.portfolio-item-2 ul li a {
+    text-decoration: none;
+}
+.portfolio-item-2 ul li a {text-decoration: none;}
+
+.portfolio-item-2 ul li {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.portfolio-item-2 ul {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-item-2 ul li a:hover {
+    background: aqua;
+    border-radius: 50px;
+    padding: 6px 15px;
+    transition: all 0.3s;
+}
+.main-body-part-6 {
+    margin-bottom: 50px;
+}
+.portfolio-item-3 {
+    width: 1020px;
+    height: auto;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -3%;
+}
+.portfolio-item-3-part {
+    width: 30.33%;
+    height: auto;
+    border: 2px solid green;
+    margin-left: 3%;
+}
+.portfolio-item-2 {
+    margin-bottom: 20px;
+}
