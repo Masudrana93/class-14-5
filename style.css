@@ -524,7 +524,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    border: 2px solid red;
+    border: 2px solid blue;
 }
 
 .division-item:nth-child(2) {
