@@ -200,7 +200,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 60px;
-
+    /* position: relative; */
 }
 
 .about-us-main-box {
@@ -244,7 +244,7 @@ body {
 }
 
 .about-us h1 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: cadetblue;
 }
 
@@ -252,12 +252,6 @@ body {
     color: red;
 }
 
-.about-us h1 {
-    border-bottom: 1px solid red;
-    width: fit-content;
-    text-align: center;
-    margin: auto;
-}
 
 .main-body-part-4 {
     width: 100%;
@@ -329,8 +323,8 @@ body {
 }
 
 .heading {
-    text-align: center;
-    padding-bottom: 25px;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .small-logo-describe {
@@ -357,7 +351,6 @@ body {
 }
 
 .heading h1 {
-    border-bottom: 2px solid red;
     width: fit-content;
     margin: auto;
 }
@@ -419,14 +412,15 @@ body {
 .portfolio-item {
     text-align: center;
     margin-bottom: 30px;
+    position: relative;
 }
 .portfolio-item h1 {
     text-transform: uppercase;
-    margin-bottom: 15px;
-    border-bottom: 2px solid red;
-    width: fit-content;
+    margin-bottom: 30px;
+    /* border-bottom: 2px solid red; */
+    /* width: fit-content; */
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .portfolio-item-2 ul li a {
     text-decoration: none;
@@ -556,7 +550,7 @@ body {
     margin-top: 30px;
 }
 
-.team-section-title h2 {
+.team-section-title h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -814,7 +808,7 @@ textarea#message {
     margin: auto;
     text-align: center;
 }
-.Asked-ques.title h2 {
+.Asked-ques.title h1 {
     margin-bottom: 20px;
     border-bottom: 2px solid royalblue;
     width: fit-content;
@@ -860,11 +854,10 @@ textarea#message {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.price-title h2 {
+.price-title h1 {
     color: #37517e;
     font-weight: bold;
     margin-bottom: 20px;
-    text-decoration: underline;
     font-size: 32px;
 }
 .price-plan-part {
@@ -943,3 +936,40 @@ textarea#message {
         display: flex;
         margin-top: 30px;
     }
+    
+
+
+    .TitleDesign h1 {
+        position: relative;
+        color: #37517e;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .TitleDesign h1:before {
+        content: "";
+        width: 160px;
+        height: 1px;
+        background:#ddd;
+        display: block;
+        position: absolute;
+        bottom: -5px;
+        left: calc(50% - 80px);
+    }
+    .TitleDesign h1:after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        display: block;
+        background:#47b2e4;
+        position: absolute;
+        left: calc(50% - 15px);
+        bottom: -6px;
+    }
+
+    
+    
