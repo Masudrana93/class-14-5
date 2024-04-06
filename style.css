@@ -332,8 +332,9 @@ body {
     height: auto;
     overflow: hidden;
     background:#F3F5FA;
-    padding: 25px 15px;
+    padding: 50px 20px;
     justify-items: center;
+    box-shadow: 0 0 10px;
 }
 
 .part-5-box-section-2 {
@@ -971,5 +972,84 @@ textarea#message {
         bottom: -6px;
     }
 
+   
+
+    i.fa-solid.fa-location-dot {
+        float: left;
+        padding: 10px;
+        color: red;
+        font-size: 20px;
+        background: darkseagreen;
+        border-radius: 20px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    i.fa-solid.fa-envelope {
+        float: left;
+        padding: 10px;
+        color: red;
+        font-size: 20px;
+        background: darkseagreen;
+        border-radius: 20px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .location-address p {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    i.fa-solid.fa-phone {
+        float: left;
+        color: red;
+        padding: 10px;
+        margin-right: 8px;
+        background: darkseagreen;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+    }
     
-    
+    i.fa-solid.fa-layer-group,
+    i.fa-solid.fa-gauge-high,
+    i.fa-solid.fa-file-lines,
+    i.fa-brands.fa-dribbble {
+        color: cornflowerblue;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    i.fa-solid.fa-circle-question {
+        float: left;
+        font-size: 25px;
+        color: darkcyan;
+        margin-right: 8px;
+    }
+    i.fa-solid.fa-chevron-right {
+        float: left;
+        margin-right: 10px;
+        color: mediumslateblue;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 5px;
+    }
+    i.fa-solid.fa-check {
+        float: left;
+        font-size: 15px;
+        margin-right: 10px;
+        color: green;
+    }
+    i.fa-solid.fa-xmark {
+        float: left;
+        font-size: 15px;
+        margin-right: 10px;
+        color: gray;
+    }
